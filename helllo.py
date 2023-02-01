@@ -1,6 +1,11 @@
-print("hello world")
-print("hey there")
-print("i m fine")
-print("this is a new line")
-print("this is before checkout")
-print("new_thirsty_branch")
+hungry=input("Are you hungry ?")
+
+if hungry=="yes":
+    print("Eat samosa")
+    print("Eat pizza")
+    print("Eat burger")
+    print("Eat fries")
+else:
+    thirsty=input("Are you thirsty ?")
+    if thirsty=="yes":
+        print("Drink water")
